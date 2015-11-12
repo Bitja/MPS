@@ -7,7 +7,7 @@ public class Timer : MonoBehaviour {
     public Text counterText;
 	private float mytimer= 60;
 	private int seconds; 
-	private int minutes = 2;
+	private int minutes = 0;
 	private bool isOn = false;
 	public static bool timerFrozen = false;
 	public GameObject timer;
@@ -22,7 +22,7 @@ public class Timer : MonoBehaviour {
 		timer.SetActive(true);		
 		isOn = true;
 		mytimer = 60;
-		minutes = 2;
+		minutes = 0;
 	}
 	void Start () {
         counterText = GetComponent<Text>() as Text;

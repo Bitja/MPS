@@ -47,11 +47,11 @@ public class Infotoggle : MonoBehaviour {
 			infoText.text = "Hello world";
 		}
 		else if (PathTracer.currentLevel == 1) {
-			infoText.text = "For your next task, use the transparent widget.";
+			infoText.text = "Grap your widget and get ready for the next level!";
 			infoImage1.SetActive (true);
 		}
 		else if (PathTracer.currentLevel == 2) {
-			infoText.text = "For your next task, use your finger and the light following it.";
+			infoText.text = "Grap your widget and get ready for the next level!";
 			infoImage2.SetActive (true);
 		}
 		else if (PathTracer.currentLevel == 3) {
