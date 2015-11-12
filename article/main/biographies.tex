@@ -1,0 +1,18 @@
+% If you have an EPS/PDF photo (graphicx package needed) extra braces are
+% needed around the contents of the optional argument to biography to prevent
+% the LaTeX parser from getting confused when it sees the complicated
+% \includegraphics command within an optional argument. (You could create
+% your own custom macro containing the \includegraphics command to make things
+% simpler here.)
+\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip]{profil}}]{Jacob Møller}
+
+\end{IEEEbiography}
+
+% insert where needed to balance the two columns on the last page with
+% biographies
+%\newpage
+%
+%\vfill
+% Can be used to pull up biographies so that the bottom of the last one
+% is flush with the other column.
+%\enlargethispage{-5in}
