@@ -1,0 +1,66 @@
+\def\navnB{Jakob Aaen}
+
+\ifx\titlepageleftcolumnwidth\undefined
+\newlength{\titlepageleftcolumnwidth}
+\newlength{\titlepagerightcolumnwidth}
+\fi
+\setlength{\titlepageleftcolumnwidth}{0.4\textwidth-\tabcolsep}
+\setlength{\titlepagerightcolumnwidth}{\textwidth-2\tabcolsep-\titlepageleftcolumnwidth}
+% create title page
+\thispagestyle{empty}
+\noindent%
+\begin{tabular}{@{}ll@{}}
+    \parbox{\titlepageleftcolumnwidth}{
+        \vspace{-1.0cm}
+        \centering
+        \includegraphics{img/aau_logo_en}
+    } &
+    \parbox{\titlepagerightcolumnwidth}{\vspace{-1.0cm}\raggedleft\sffamily\small
+    % department and address
+    \textbf{Architecture Design \& Media Technology}\\
+    Rendsburggade 14\\
+    DK-9000 Aalborg\\
+    \href{http://smc.aau.dk}{http://smc.aau.dk}
+}\bigskip\\
+\parbox[t]{\titlepageleftcolumnwidth}{
+    {\large\bfseries Title:}\\ Worksheet for ****\textsuperscript{rd} Semester M.Sc. Article\bigskip\par
+    {\large\bfseries Theme:}\\ **** \bigskip\par
+    {\large\bfseries Project Period:}\\ **** Spring/Fall Semester 2015\bigskip\par
+    {\large\bfseries Project Group:}\\ ****\bigskip\par
+    {\large\bfseries Authors:}\\****
+    \\
+%    \begin{tabular}{ll}
+%      %  \includegraphics[width=1.38cm,trim = 5cm 0cm 5cm 0cm,clip,angle=0]{img/jakoba}&
+%        \parbox[t][0cm]{5cm}{
+%            \vfill
+%            \centering
+%            \hrulefill\\
+%            \navnB\\ 
+%        }
+%        }
+%    \end{tabular}\\
+    \\
+    \\
+    {\large\bfseries Supervisor:}\\ Mads Græsbøll Christensen\bigskip\par ****
+    {\large\bfseries Number of Prints:}\\ ****\bigskip\par 
+    {\large\bfseries Number of Pages:}\\ \lastpageref{LastPages}\bigskip\par
+    {\large\bfseries Date for Submission:}\\ **** 2015 
+} &
+\parbox[t]{\titlepagerightcolumnwidth}{%
+    {\large\bfseries Abstract:}\bigskip\par
+    \colorbox{gray!10}{
+        \parbox{\titlepagerightcolumnwidth-2\fboxsep-2\fboxrule}{%
+            \setlength{\parindent}{20pt}
+            \noindent
+            \input{etc/synopsis}
+        }
+    }
+
+}\\
+\end{tabular}
+
+\begin{center}
+    \noindent{\footnotesize\emph{The content of this report is not public available, and publication may only be pursued due to agreement with the author.}}
+\end{center}
+
+\clearpage

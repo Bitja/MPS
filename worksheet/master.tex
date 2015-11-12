@@ -1,0 +1,49 @@
+% vim: nospell
+% arara: pdflatex
+% arara: nomencl
+% arara: pdflatex
+\input{set/preamble.tex}
+\input{set/macros.tex}
+\input{set/listings.tex}
+%
+\begin{document}
+
+% Frontmatter %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagenumbering{roman}
+\pagestyle{empty}
+\input{etc/frontpage}
+%\cleardoublepage	
+%\input{etc/titlepage}
+\cleardoublepage	
+\pagestyle{fancy}
+\setcounter{page}{1}
+%\input{etc/preface}
+%\input{set/word_symbol_list.tex}
+
+
+%\tableofcontents
+%\cleardoublepage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+%\todototoc
+%\listoftodos
+
+%%%%%%%%%%%%%%%%%%%%% Main Inputs %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter*{Example}
+\input{sec/template}
+
+%%%%%%%%%%%%%%%% Bibliography and appendices %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    % Adjust appendix debth in TOC. 
+    % NOTE: This makes list-of-fixmes unusable.
+    % \addtocontents{toc}{\protect\setcounter{tocdepth}{0}} 
+
+   % \bibliographystyle{plain}
+    %\bibliography{bib/sources}
+   % \addcontentsline{toc}{chapter}{Bibliography}
+
+  %  \chapter*{Appendix} \label{chap:appendixCD}
+  %      \addcontentsline{toc}{chapter}{Appendix CD}
+%        \newpage
+%    \listoffixmes
+\end{document}

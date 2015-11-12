@@ -1,0 +1,65 @@
+% vim: nospell
+\lstset{
+    breaklines=true, 
+    language=c,
+    basicstyle=\scriptsize\ttfamily, 
+    numberstyle=\scriptsize\ttfamily, 
+    keywordstyle=\bfseries,
+    framerule=0.4em,
+    rulecolor=\color{black},
+    frame=leftline,
+    xleftmargin=3em,
+    linewidth=\linewidth,
+    numbers=left, 
+    literate={ø}{{\o}}1 {æ}{{\ae}}1{å}{{\aa}}1,
+    showtabs=false,
+    showspaces=false,
+    showstringspaces=false,
+    captionpos=b,
+    commentstyle=\color{gray},
+}
+\lstdefinelanguage{picoblaze}{
+    sensitive=false,
+    morekeywords=[1]{
+        add, addcy, adddc, addcy, and, call, compare, comp,
+        dint, eint, fetch, input, jump, load, or, output,
+        return, returni, rl, rr, sl0, sl1, sla, slx, sr0, sr1,
+    sra, srx, store, sub, subcy, test, xor},
+    morecomment=[l]{;},
+    morestring=[b]",
+    morestring=[b]',
+}
+\lstdefinelanguage{constraintfile}{
+    morekeywords={NET, LOC},
+    sensitive=false,
+    morecomment=[l]\#,
+    morestring=[b]",
+}
+\lstdefinelanguage{diff}{
+    morecomment=[f][\color{blue!70!black}]{<},
+    morecomment=[f][\color{red!70!black}]{>},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%MATLA%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+
+\lstset{language=Matlab,%
+    %basicstyle=\color{red},
+    breaklines=true,%
+    morekeywords={matlab2tikz},
+    keywordstyle=\color{blue},%
+    morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+    identifierstyle=\color{black},%
+    stringstyle=\color{mylilas},
+    commentstyle=\color{mygreen},%
+    showstringspaces=false,%without this there will be a symbol in the places where there is a space
+    numbers=left,%
+    numberstyle={\tiny \color{black}},% size of the numbers
+    numbersep=9pt, % this defines how far the numbers are from the text
+   % emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+    %emph=[2]{word1,word2}, emphstyle=[2]{style},    
+}

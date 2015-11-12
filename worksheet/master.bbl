@@ -1,0 +1,173 @@
+\begin{thebibliography}{10}
+
+\bibitem{autoClassify}
+Jakob Abe{\ss}er.
+\newblock {\em Automatic String Detection for Bass Guitar and Electric Guitar}.
+\newblock Book from Springer, 2012.
+\newblock
+  \url{http://www.cmmr2012.eecs.qmul.ac.uk/sites/cmmr2012.eecs.qmul.ac.uk/files/pdf/papers/cmmr2012\_submission\_70.pdf}.
+
+\bibitem{Duxbury}
+Mike~Davies Chris~Duxbury, Juan P.~Bello and Mark Sandler.
+\newblock {\em Complex Domain Onset Detection for Musical Signals}.
+\newblock Article from the Proceedings of the 6th International Conference on
+  Digital Audio Effects, 2003.
+\newblock
+  \url{https://files.nyu.edu/jb2843/public/Publications\_files/Duxbury-DAFx-2003.pdf}.
+
+\bibitem{mgc}
+Mads~G. Christensen and Andreas Jakobsson.
+\newblock {\em Multi-Pitch Estimation}.
+\newblock Book from Morgan \& Claypool, 2009.
+
+\bibitem{cepstrum_pitch}
+Jordi~Pascual Climent~Nadeu and Javier Hernando.
+\newblock {\em Pitch Determination using the Cepstrum of the one-sided
+  autocorrelation Sequence}.
+\newblock Article from the Conference of Acoustics, Speech, and Signal
+  Processing, ICASSP-91, 1991.
+\newblock \url{http://www.cs.upc.edu/~nlp/papers/hernando\_pitch.pdf}.
+
+\bibitem{pitch_auto2}
+Alain d.~Cheveigne and Hideki Kawahara.
+\newblock {\em YIN, a fundamental frequency estimator for speech and music}.
+\newblock Article from the Journal of the Acoustical Society of America, Vol.
+  111, 2002.
+\newblock \url{http://audition.ens.fr/adc/pdf/2002\_JASA\_YIN.pdf}.
+
+\bibitem{onsetDixon}
+Simon Dixon.
+\newblock {\em Onset Detection Revisited}.
+\newblock Article from the Proceedings of the 9th International Conference on
+  Digital Audio Effects, 2006.
+\newblock \url{http://www.dafx.ca/proceedings/papers/p\_133.pdf}.
+
+\bibitem{Hugo}
+Hugo Fastl and Florian Völk.
+\newblock {\em Inharmonicity of Sounds from Electric Guitars: Physical Flaw or
+  Musical Asset?}
+\newblock Article from Technische Universität München, 2010.
+
+\bibitem{engiguitar}
+Richard~M. French.
+\newblock {\em Engineering the Guitar}.
+\newblock Book from Springer, 2009.
+
+\bibitem{paper:windows}
+Fredric~J. Harris.
+\newblock {\em On the use of windows for harmonic analysis with the discrete
+  Fourier transform}.
+\newblock Article from the Proceedings of the IEEE, vol 66, 1978.
+\newblock \url{http://web.mit.edu/xiphmont/Public/windows.pdf}.
+
+\bibitem{stiffness}
+E.~Donnell~Blackham Harvey~Fletcher and Richard Stratton.
+\newblock {\em Quality of piano tones}.
+\newblock Article from the Journal of the Acoustical Society of America, Vol.
+  34, 1962.
+
+\bibitem{Hilbert_source}
+Julius O.~Smith III.
+\newblock {\em Analytic Signals and Hilbert Transform Filters}.
+\newblock Book from Stanford University, 2000.
+\newblock
+  \url{https://ccrma.stanford.edu/~jos/mdft/Analytic\_Signals\_Hilbert\_Transform.html}.
+
+\bibitem{inhaClassify}
+Simone~Sammartino Isabel~Barbancho, Lorenzo J.~Tardón and Ana~M. Barbancho.
+\newblock {\em Inharmonicity-Based Method for the Automatic Generation og
+  Guitar Tablature}.
+\newblock Article from Transactions on Speech and Audio Processing, Vol. 20,
+  2012.
+\newblock
+  \url{http://ieeexplore.ieee.org/xpl/login.jsp?tp=\&arnumber=6171835\&url=http\%3A\%2F\%2Fieeexplore.ieee.org\%2Fiel5\%2F10376\%2F6176018\%2F06171835.pdf\%3Farnumber\%3D6171835}.
+
+\bibitem{multif0}
+Anssi~P. Klapuri.
+\newblock {\em Multiple Fundamental Frequency Estimation based in Harmonicity
+  and Spectral Smoothes}.
+\newblock Article from Transactions on Speech and Audio Processing, Vol. 11,
+  2003.
+\newblock \url{http://www.cs.tut.fi/sgn/arg/klap/multiplef0.pdf}.
+
+\bibitem{kreyszig}
+Erwin Kreyszig.
+\newblock {\em Advanced Engineering Mathematics, 10th edition}.
+\newblock Book from Wiley, 2011.
+
+\bibitem{auto_70}
+Georgije Lukatela.
+\newblock {\em Pitch Determination by Adaptive Autocorrelation Method}.
+\newblock Article from Haskins Laboratories Status Report on Speech Research,
+  1972.
+\newblock \url{http://web.haskins.yale.edu/SR/SR033/SR033\_17.pdf}.
+
+\bibitem{harmonicssymb}
+Peter Neubäcker.
+\newblock {\em Harmonics as Symbolism}.
+\newblock Expanded transcript of the lecture „Symbolische Inhalte der
+  mathematisch-musikalischen Beziehungen in der Pythagoräischen Harmonik“.
+\newblock
+  \url{http://www.harmonik.de/harmonik/vtr\_pdf/HarmonicsAsSymbolism.pdf}.
+
+\bibitem{Ney_smooth}
+Hermann Ney.
+\newblock {\em A Dynamic Programming Technique for Nonlinear Smoothing}.
+\newblock Article from Acoustics, Speech, and Signal Processing, IEEE
+  International Conference on ICASSP '81. Vol. 6, 1981.
+\newblock
+  \url{http://ieeexplore.ieee.org.zorac.aub.aau.dk/stamp/stamp.jsp?tp=&arnumber=1171343}.
+
+\bibitem{NSG}
+Gino Angelo~Velasco Nicki~Holighaus, Gino A.~Velasco and Christoph Wiesmeyr.
+\newblock {\em NSGToolbox - A Matlab/Octave Toolbox for nonstationary Gabor
+  transforms}.
+\newblock Partially funded by the WWTF project Audiominer and the FWF START
+  project Flame, 2013.
+\newblock \url{http://nsg.sourceforge.net/}.
+
+\bibitem{ross2009introduction}
+Sheldon~M. Ross.
+\newblock {\em Introduction to Probability and Statistics for Engineers and
+  Scientists}.
+\newblock Article from the Academic Press, 2012.
+
+\bibitem{auto_schroeder}
+Manfred R.Schroeder.
+\newblock {\em Generalized Short-Time Power Spectra and Autocorrelation
+  Functions}.
+\newblock Article from the Journal of the Acoustical Society of America, 34,
+  1962.
+\newblock
+  \url{http://www.researchgate.net/publication/252166289\_Generalized\_Short-Time\_Power\_Spectra\_and\_Autocorrelation\_Functions}.
+
+\bibitem{stoica}
+Petre Stoica and Randolph Moses.
+\newblock {\em {Spectral Analysis of Signals}}.
+\newblock Book from Prentice Hall, 1997.
+
+\bibitem{scienceofsound}
+F.Richard~Moore Thomas D.~Rossing and Paul~A. Wheeler.
+\newblock {\em {The Science of Sound}}.
+\newblock Book from Addison Wesley, 2002.
+
+\bibitem{multif0_yeh}
+Chunghsin YEH.
+\newblock {\em Multiple Fundamental Frequency Estimation of Polyphonic
+  Recordings}.
+\newblock Article to Obtain the Grade of Doctor from University of Paris VI,
+  2008.
+\newblock \url{http://articles.ircam.fr/textes/Yeh08a/index.pdf}.
+
+\bibitem{amdf_pitch}
+Huan Zhao and Wenjie Gan.
+\newblock {\em Pitch Determination using the Cepstrum of the one-sided
+  autocorrelation Sequence}.
+\newblock 2013.
+
+\bibitem{zollner2009}
+Manfred Zollner.
+\newblock {\em Physik Der Elecrogitarre}.
+\newblock Book from Hochschule Regensburg, 2009.
+
+\end{thebibliography}

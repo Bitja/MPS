@@ -1,0 +1,93 @@
+ % ---- Make typing equations easier -------------
+\DeclareMathOperator*{\argmax}{arg\,max}
+\newcommand{\veca}{\mathbf{a}}
+\newcommand{\Q}{\mathbf{Q}_k}
+\newcommand{\Like}{\mathcal{L}}
+\newcommand{\Piz}{\boldsymbol\Pi_{Z_k}}
+\newcommand{\Thetaparam}{\boldsymbol\Theta_{k}}
+\newcommand{\HATThetaparam}{\hat{\boldsymbol\Theta}_{k}}
+\newcommand{\thetaparam}{\boldsymbol\theta_{k}}
+\newcommand{\HATthetaparam}{\hat{\boldsymbol\theta}_{k}}
+\newcommand{\limN}{\lim_{N\to\infty}}
+\newcommand{\var}{\sigma^2_k}
+\newcommand{\varhat}{\hat{\sigma}^2_k}
+\newcommand{\z}{\mathbf{z}}
+\newcommand{\ehat}{\hat{\mathbf{e}}_k}
+\newcommand{\e}{\mathbf{e}_k}
+\newcommand{\ak}{\mathbf{a}_k}
+\newcommand{\Z}{\mathbf{Z}_k}
+\newcommand{\x}{\mathbf{x}_k}
+\newcommand{\s}{\mathbf{s}_k}
+\newcommand{\shat}{\mathbf{\hat{s}}_k}
+\newcommand{\I}{\mathbf{I}}
+\newcommand{\pz}{p(\mathbf{z})}
+\newcommand{\pwz}{p(\omega_k|\mathbf{z})}
+\newcommand{\Pwz}{P(\omega_k|\mathbf{z})}
+\newcommand{\Pw}{P(\omega_k)}
+\newcommand{\pzw}{p(\mathbf{z}|\omega_k)}
+\newcommand{\Pzw}{P(\mathbf{z}|\omega_k)}
+\newcommand{\wk}{\omega_k}
+\newcommand{\w}{\omega}
+\newcommand{\vecmu}{\text{\boldmath$\mu$}}
+\newcommand{\what}{\hat\omega}
+\newcommand{\Cost}{C(\hat\omega_i|\omega_k)}
+\newcommand{\Risk}{R(\hat\omega_i|\z)}
+\newcommand{\E}{\mathrm{E}} 
+ % -----------------------------------------------
+
+\newcommand{\vecr}{\mathbf r}
+% section describing the guitar tuner harmonic summation
+\newcommand{\NFFT}{\texttt{NFFT}}
+\newcommand{\N}{\texttt{N}}
+\newcommand{\dur}{\texttt{dur}}
+\newcommand{\vecf}{\mathbf f}
+\newcommand{\vecX}{\mathbf X}
+\newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
+\newcommand{\HL}{\bm{HL}}
+\newcommand{\PSNR}{\textit{PSNR}}
+\newcommand{\SNR}{\textit{SNR}}
+\newcommand{\PSNRvec}{\mathbf{PSNR}}
+\newcommand{\SNRvec}{\mathbf{SNR}}
+\newcommand{\RMSE}{\textit{RMSE}}
+%% -----------------------------------------------------
+\newcommand{\vectheta}{\text{\boldmath$\theta$}}
+
+\newenvironment{aautop}{\it}{\vskip 0.75cm}
+\newenvironment{aautail}{\vskip 0.75cm\bfseries}{}
+\newcommand{\cdref}[1] {
+    \begin{flushleft}
+        \begin{tabular}{ll}
+            \hspace{1em}\includegraphics[height=9pt]{img/folder} & \texttt{#1}
+        \end{tabular}
+    \end{flushleft}
+}
+\newcommand{\arbejdsbladDato}[1] {
+      \begin{flushright}\itshape #1\end{flushright}
+}
+\newcommand{\hex}[1] {
+      \texttt{#1}
+}
+\def\itoc{I$^2$C\xspace}
+\newcommand{\real}[1]{\text{Re}\{#1\}}
+\newcommand{\imag}[1]{\text{Im}\{#1\}}
+
+\newcounter{reqcount}
+\newcommand{\req}[1]{%
+      \refstepcounter{reqcount}\label{#1}
+    \item [\rm\arabic{reqcount}.]
+}
+
+\newcommand\wherelabel[1]{\hspace{\labelsep}$#1$}
+\newenvironment{where}{%
+    \let\descriptionlabel\wherelabel
+    \description
+}{%
+    \enddescription
+}
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+
+\newcommandx{\info}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
+\newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
+\newcommandx{\improvement}[2][1=]{\todo[linecolor=Plum,backgroundcolor=Plum!25,bordercolor=Plum,#1]{#2}}
+\newcommandx{\thiswillnotshow}[2][1=]{\todo[disable,#1]{#2}}
+
