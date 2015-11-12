@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">1693</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">6376914f-5527-4a0d-8a66-d7e147eab3d6</dc:identifier>
+        <dc:title>Sensation and Perception</dc:title>
+        <dc:creator opf:file-as="Goldstein, E. Bruce" opf:role="aut">E. Bruce Goldstein</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (0.9.42) [http://calibre-ebook.com]</dc:contributor>
+        <dc:date>0101-01-01T00:00:00+00:00</dc:date>
+        <dc:description>&lt;b&gt;Uploaded by [StormRG]&lt;/b&gt;</dc:description>
+        <dc:language>eng</dc:language>
+        <meta content="{&quot;E. Bruce Goldstein&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="0.0" name="calibre:rating"/>
+        <meta content="2014-03-11T23:59:08+00:00" name="calibre:timestamp"/>
+        <meta content="Sensation and Perception" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="Sensation and Perception - E. Bruce Goldstein.jpg" title="Cover" type="cover"/>
+    </guide>
+</package>
