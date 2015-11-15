@@ -15,3 +15,5 @@ EditorBuildSettings:
     path: Assets/Template-BackUp.unity
   - enabled: 1
     path: Assets/TemplateBianca.unity
+  - enabled: 1
+    path: Assets/TemplateBianca 1.unity

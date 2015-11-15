@@ -64,7 +64,7 @@ public class CylFollowAni : MonoBehaviour {
     void OnCollisionEnter(Collision col) {
         if (col.gameObject.name == "CylinderMouseTut") {
             if (tutorialState == 0) {
-				GradiantLamp.skammekrog = false;
+                GradiantLamp.skammekrog = false;
 				mTut.transform.position += moveR;
                 cylFollowAni.SetActive(true);
                 widget1.SetActive(false);
@@ -79,7 +79,7 @@ public class CylFollowAni : MonoBehaviour {
                 Audio.audiostate = 7; // plays sound
             }
             if (tutorialState == 4) {
-				GradiantLamp.skammekrog = true;
+                GradiantLamp.skammekrog = true;
                 dialog.text = "";
                 mStart.SetActive(false);
                 widget3.SetActive(false);

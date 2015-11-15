@@ -118,7 +118,7 @@ public class PathTracer : MonoBehaviour {
 
 	public void setCurrentLevel(int level){
 		currentLevel = level;
-		//Debug.Log (currentLevel);
+		Debug.Log (currentLevel);
 	}
 
     public static void displayScore() {

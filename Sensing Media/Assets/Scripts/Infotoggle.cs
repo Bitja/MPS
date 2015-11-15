@@ -55,8 +55,8 @@ public class Infotoggle : MonoBehaviour {
 			infoImage2.SetActive (true);
 		}
 		else if (PathTracer.currentLevel == 3) {
-			infoText.text = "For your next task, use the solid widget and the light in the corner.";
-			infoImage3.SetActive (true);
+			infoText.text = "Part A has now ended.";
+			//infoImage3.SetActive (true);
 		}		
 		else if (PathTracer.currentLevel == 4) {
 			infoText.text = "For your next task, use your finger and the light in the corner.";

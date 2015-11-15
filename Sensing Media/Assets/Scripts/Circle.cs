@@ -7,15 +7,6 @@ public class Circle : MonoBehaviour {
 
     public int id;
 
-    //private Color defaultColour;
-    //private Color selectedColour = Color.red;
-    //private Material mat;
-
-	void Start () {
-        //mat = GetComponent<SpriteRenderer>().material;
-        //defaultColour = mat.color;
-    }
-
     void OnCollisionEnter(Collision col) { //OnTouchDown() {
 		if (col.gameObject.name == "CylinderMouse" && id==1
 		    ||col.gameObject.name == "CylinderMouse2" && id==1
@@ -25,17 +16,9 @@ public class Circle : MonoBehaviour {
             Handler.prepare();
             mouseEnabled = false;
             Audio.audiostate = 5; // play sound
-
         }
-/*        else if (col.gameObject.name == "CylinderMouse" && id == 2
-                 || col.gameObject.name == "CylinderMouse2" && id == 2
-                 || col.gameObject.name == "CylinderMouse3" && id == 2
-                 || col.gameObject.name == "CylinderMouse4" && id == 2
-                 || col.gameObject.name == "CylinderMouseTut" && id == 2) {
-            Audio.audiostate = 9; // play sound
-        }
-*/
     }
+
     void OnCollisionExit(Collision col) {//OnTouchExit() {
         if (id == 0 && mouseEnabled)
             Handler.start();
