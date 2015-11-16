@@ -9,7 +9,7 @@ public class Timer : MonoBehaviour {
 	private int seconds; 
 	private int minutes = 2;
 	private bool isOn = false;
-	public static bool timerFrozen = false;
+	public static bool timerFrozen = true;
 	public GameObject timer;
 
 
@@ -21,8 +21,8 @@ public class Timer : MonoBehaviour {
 	public void resetTimer(){
 		timer.SetActive(true);		
 		isOn = true;
-		mytimer = 60;
-		minutes = 2;
+		mytimer = 1;
+		minutes = 0;
 	}
 	void Start () {
         counterText = GetComponent<Text>() as Text;
@@ -42,8 +42,8 @@ public class Timer : MonoBehaviour {
 		}
 		counterText.text = minutes + ":" + seconds.ToString("00");
 		if (minutes <= 0 && mytimer <= 1) {
-			Handler.end ();
-
+			Handler.end();
+            //Debug.Log(mytimer);
 		}
      }
 }
