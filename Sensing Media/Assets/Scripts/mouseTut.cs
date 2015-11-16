@@ -5,12 +5,8 @@ using System.Collections.Generic;
 
 public class mouseTut : MonoBehaviour {
 
-
 	public static bool skammekrog;
-
 	public float moveSpeed = 1.0f;
-
-
     private Renderer rend;
 	public Color colorStart, colorEnd;
 	public GameObject mouse;

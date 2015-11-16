@@ -5,9 +5,10 @@ using System.Collections;
 public class Infotoggle : MonoBehaviour {
 
 	public GameObject infoTextObject, infoPanelObject;
-	public static GameObject infoButton,infoImage1,infoImage2,infoImage3,infoImage4,infoImage5;
+	public static GameObject infoButton,infoImage1,infoImage2,infoImage3,infoImage4,infoImage5, path4;
 	public static Image infoPanel;
 	public static Text infoText;
+    private static bool skrap= false;
 
 
 
@@ -47,21 +48,27 @@ public class Infotoggle : MonoBehaviour {
 			infoText.text = "Hello world";
 		}
 		else if (PathTracer.currentLevel == 1) {
-			infoText.text = "Grap your widget and get ready for the next level!";
+			infoText.text = "Grap your widget and get ready for the first level!";
 			infoImage1.SetActive (true);
 		}
 		else if (PathTracer.currentLevel == 2) {
 			infoText.text = "Grap your widget and get ready for the next level!";
-			infoImage2.SetActive (true);
+			infoImage1.SetActive (true);
 		}
 		else if (PathTracer.currentLevel == 3) {
-			infoText.text = "Part A has now ended.";
-			//infoImage3.SetActive (true);
+            infoText.text = "Grap your widget and get ready for the last level!";
+            infoImage1.SetActive (true);
 		}		
 		else if (PathTracer.currentLevel == 4) {
-			infoText.text = "For your next task, use your finger and the light in the corner.";
-			infoImage4.SetActive (true);
-		}
+            if (skrap == false) {
+                infoText.text = "Part A has now ended. Continue to Part B.";
+                skrap = true;
+            }
+            else if (skrap == true){
+                infoText.text = "You have now completed the game.";
+            }
+        }
+
 		else if (PathTracer.currentLevel == 5) {
 			infoText.text = "For your next task, use the solid widget and the light following it.";
 			infoImage5.SetActive (true);

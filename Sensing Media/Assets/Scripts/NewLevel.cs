@@ -88,9 +88,11 @@ public class NewLevel : MonoBehaviour {
 		else if (sceneToChangeTo == 2) {
 			imageFadePlane2.enabled = true;
 			imageFadePlane2.CrossFadeAlpha (0.0f, 2.0f, true);
-		} 
+            CylFollowAni.tutorialState =0;
+        } 
 		else if (sceneToChangeTo == 3) {
-			imageFadePlane3.enabled = true;
+            
+            imageFadePlane3.enabled = true;
 			imageFadePlane3.CrossFadeAlpha (0.0f, 2.0f, true);
 		} 
 		else if (sceneToChangeTo == 4) {
@@ -112,5 +114,8 @@ public class NewLevel : MonoBehaviour {
         Handler.reset();
 	//	myFadeTextures[sceneToChangeTo].enabled = true;
 	//	myFadeTextures[sceneToChangeTo].CrossFadeAlpha(0.0f, 2.0f, true);
+
+
     }
+
 }
