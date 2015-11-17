@@ -1,6 +1,14 @@
 % vim: nospell
 \documentclass[twoside,11pt,usenames,dvipsnames,openright]{report}
 
+%%LINESPACE
+\renewcommand{\baselinestretch}{1.5}
+
+%%HEADER
+\usepackage{etoolbox}
+\patchcmd{\chapter}{\thispagestyle{plain}}{\thispagestyle{fancy}}{}{}
+
+
 %   Packages
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -163,14 +171,15 @@
 % \titleformat{name=\subsubsection}[display] {}{}{0em}{\normalsize\bfseries}
 % \titleformat{name=\paragraph}[runin] {}{}{0em}{\normalsize\itshape}
 
+
 %   Header and Items
 \usepackage{fancyhdr}
-\renewcommand{\headrulewidth}{0pt}
+%\renewcommand{\headrulewidth}{0pt}
 \pagestyle{fancy}
 \fancyfoot{}{}{}
-\fancyhead[LO]{\normalsize\rightmark}
-\fancyhead[RE]{\normalsize\leftmark}
-\fancyhead[LE,RO]{\normalsize\thepage}
+%\fancyhead[LO]{\normalsize\rightmark}
+%\fancyhead[RE]{\normalsize\leftmark}
+%\fancyhead[LE,RO]{\normalsize\thepage}
 \let\tempone\itemize
 \let\temptwo\enditemize
 \renewenvironment{itemize}{%
