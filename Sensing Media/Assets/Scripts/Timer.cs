@@ -21,7 +21,7 @@ public class Timer : MonoBehaviour {
 	public void resetTimer(){
 		timer.SetActive(true);		
 		isOn = true;
-		mytimer = 1;
+		mytimer = 30;
 		minutes = 0;
 	}
 	void Start () {
@@ -35,7 +35,6 @@ public class Timer : MonoBehaviour {
 			mytimer = mytimer;
 
 		seconds = (int)mytimer;
-		//Debug.Log (seconds);
        	if (mytimer < 0) {
 			mytimer = 60;
 			minutes--;
@@ -43,7 +42,6 @@ public class Timer : MonoBehaviour {
 		counterText.text = minutes + ":" + seconds.ToString("00");
 		if (minutes <= 0 && mytimer <= 1) {
 			Handler.end();
-            //Debug.Log(mytimer);
 		}
      }
 }
