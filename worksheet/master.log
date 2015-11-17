@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.6.2)  17 NOV 2015 12:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.6.2)  17 NOV 2015 13:04
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1983,27 +1983,27 @@ LaTeX Warning: Unused global option(s):
 )
 \openout1 = `master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 19.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 13.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 19.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -2058,16 +2058,16 @@ Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 Package caption Info: End \AtBeginDocument code.
 \symgns@font=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/ptm/m/n --> TS1/ptm/bx/n on input line 13.
-Package gensymb Info: Math companion symbols declared on input line 13.
-LaTeX Info: Redefining \degree on input line 13.
-LaTeX Info: Redefining \celsius on input line 13.
+(Font)                  TS1/ptm/m/n --> TS1/ptm/bx/n on input line 19.
+Package gensymb Info: Math companion symbols declared on input line 19.
+LaTeX Info: Redefining \degree on input line 19.
+LaTeX Info: Redefining \celsius on input line 19.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 13.
-LaTeX Info: Redefining \ohm on input line 13.
-Package gensymb Info: Using \textohm for \ohm on input line 13.
-LaTeX Info: Redefining \micro on input line 13.
-Package gensymb Info: Using \textmu for \micro on input line 13.
+erthousand on input line 19.
+LaTeX Info: Redefining \ohm on input line 19.
+Package gensymb Info: Using \textohm for \ohm on input line 19.
+LaTeX Info: Redefining \micro on input line 19.
+Package gensymb Info: Using \textmu for \micro on input line 19.
 
 ABD: EveryShipout initializing macros
 \c@lstlisting=\count335
@@ -2075,7 +2075,7 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.10}).
 
-Package hyperref Info: Link coloring ON on input line 13.
+Package hyperref Info: Link coloring ON on input line 19.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -2084,9 +2084,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count336
 )
-LaTeX Info: Redefining \ref on input line 13.
-LaTeX Info: Redefining \pageref on input line 13.
-LaTeX Info: Redefining \nameref on input line 13.
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
 
 (./master.out) (./master.out)
 \@outlinefile=\write5
@@ -2096,14 +2096,14 @@ LaTeX Info: Redefining \nameref on input line 13.
 
 Package lastpage Warning: Package pageslts found.
 (lastpage)                Therefore the lastpage package is no longer
-(lastpage)                necessary. on input line 13.
+(lastpage)                necessary. on input line 19.
 
 
 Package pageslts Warning: lastpage package detected.
 (pageslts)                With pageslts package in use, lastpage has no functio
 n.
 (pageslts)                Just remove the lastpage package from your document.
-(pageslts)                 on input line 13.
+(pageslts)                 on input line 19.
 
 
 Package pageslts Warning: Package pdfpages detected.
@@ -2148,21 +2148,21 @@ Package pageslts Warning: Package pdfpages detected.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c__siunitx_mathsf_int=\count337
-LaTeX Font Info:    Try loading font information for U+msa on input line 13.
+LaTeX Font Info:    Try loading font information for U+msa on input line 19.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 13.
+LaTeX Font Info:    Try loading font information for U+msb on input line 19.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 13.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 19.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 13.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 19.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
@@ -2238,9 +2238,9 @@ Overfull \hbox (4.67499pt too wide) in paragraph at lines 58--58
 
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 41.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 47.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 41.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 47.
 (./sec/introduction_to_physiological.tex) (./sec/perception_of_threats.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
@@ -2262,8 +2262,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 AED: lastpage setting LastPage
 [4] 
 AED: pageslts setting LastPage 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 60.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 60.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 66.
 \c@pagesLTS.arabic.1.local.count=\count346
 
 AED: pageslts setting VeryLastPage via AfterLastShipout 
@@ -2275,17 +2275,17 @@ Package pageslts Info: Total number of pages is even.
 
 
 (./master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 60.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
 Package rerunfilecheck Info: File `master.out' has not changed.
 (rerunfilecheck)             Checksum: B0550514BB51101A5BBDFAD1FD1D11D1;469.
  ) 
 Here is how much of TeX's memory you used:
- 49390 strings out of 493117
- 1150291 string characters out of 6135434
- 1506026 words of memory out of 5000000
- 51971 multiletter control sequences out of 15000+600000
- 73705 words of font info for 94 fonts, out of 8000000 for 9000
+ 49393 strings out of 493117
+ 1150315 string characters out of 6135434
+ 1505992 words of memory out of 5000000
+ 51973 multiletter control sequences out of 15000+600000
+ 76427 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,12n,96p,10442b,894s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -2294,7 +2294,7 @@ exlive/2014/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/
 xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on master.pdf (6 pages, 77833 bytes).
+Output written on master.pdf (6 pages, 78113 bytes).
 PDF statistics:
  99 PDF objects out of 1000 (max. 8388607)
  84 compressed objects within 1 object stream
