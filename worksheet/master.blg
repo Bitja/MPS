@@ -3,47 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: master.aux
 The style file: plain.bst
 Database file #1: bib/sources.bib
-Warning--empty year in harmonicssymb
-Warning--empty publisher in amdf_pitch
-You've used 25 entries,
+You've used 8 entries,
             2118 wiz_defined-function locations,
-            633 strings with 8869 characters,
-and the built_in function-call counts, 5932 in all, are:
-= -- 536
-> -- 241
+            538 strings with 5528 characters,
+and the built_in function-call counts, 1850 in all, are:
+= -- 161
+> -- 74
 < -- 0
-+ -- 98
-- -- 72
-* -- 250
-:= -- 1055
-add.period$ -- 90
-call.type$ -- 25
-change.case$ -- 86
++ -- 31
+- -- 22
+* -- 78
+:= -- 331
+add.period$ -- 24
+call.type$ -- 8
+change.case$ -- 27
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 300
-empty$ -- 551
-format.name$ -- 72
-if$ -- 1256
+cite$ -- 8
+duplicate$ -- 96
+empty$ -- 177
+format.name$ -- 22
+if$ -- 390
 int.to.chr$ -- 0
-int.to.str$ -- 25
-missing$ -- 50
-newline$ -- 143
-num.names$ -- 50
-pop$ -- 199
+int.to.str$ -- 8
+missing$ -- 16
+newline$ -- 43
+num.names$ -- 16
+pop$ -- 67
 preamble$ -- 1
-purify$ -- 86
+purify$ -- 27
 quote$ -- 0
-skip$ -- 159
+skip$ -- 51
 stack$ -- 0
-substring$ -- 126
-swap$ -- 25
+substring$ -- 41
+swap$ -- 8
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 50
-warning$ -- 2
-while$ -- 50
-width$ -- 27
-write$ -- 280
-(There were 2 warnings)
+type$ -- 16
+warning$ -- 0
+while$ -- 16
+width$ -- 9
+write$ -- 82

@@ -6,6 +6,13 @@
 \input{set/macros.tex}
 \input{set/listings.tex}
 %
+\fancyhf{}
+
+\fancyhead[L]{\fontsize{8}{12}\selectfont\navnA, \navnB, \navnC, \navnD, \navnE \\}
+\fancyhead[R]{\fontsize{8}{12}\selectfont\ptitle}
+
+\cfoot{\thepage}
+
 \begin{document}
 
 % Frontmatter %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -13,25 +20,33 @@
 \pagestyle{empty}
 \input{etc/frontpage}
 %\cleardoublepage	
-%\input{etc/titlepage}
-\cleardoublepage	
-\pagestyle{fancy}
+\input{etc/titlepage}
+%\cleardoublepage	
 \setcounter{page}{1}
+\pagestyle{fancy}
 %\input{etc/preface}
 %\input{set/word_symbol_list.tex}
 
 
 %\tableofcontents
 %\cleardoublepage
-\setcounter{page}{1}
+%\setcounter{page}{1}
 \pagenumbering{arabic}
 %\todototoc
 %\listoftodos
 
 %%%%%%%%%%%%%%%%%%%%% Main Inputs %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \renewcommand{\cleardoublepage}{}
-\chapter{Example}
-\input{sec/template}
+%Remove the example chapter
+%\chapter{Example}
+	%\input{sec/template}
+
+\chapter{Physiological Reactions to Threats}
+	\input{sec/introduction_to_physiological}
+	\input{sec/perception_of_threats}
+	\input{sec/cognitive_respond_to_threats}
+	
+\chapter{Tests}
 
 %%%%%%%%%%%%%%%% Bibliography and appendices %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -39,9 +54,9 @@
     % NOTE: This makes list-of-fixmes unusable.
     % \addtocontents{toc}{\protect\setcounter{tocdepth}{0}} 
 
-   % \bibliographystyle{plain}
-    %\bibliography{bib/sources}
-   % \addcontentsline{toc}{chapter}{Bibliography}
+   \bibliographystyle{plain}
+    	\bibliography{bib/sources}
+   \addcontentsline{toc}{chapter}{Bibliography}
 
   %  \chapter*{Appendix} \label{chap:appendixCD}
   %      \addcontentsline{toc}{chapter}{Appendix CD}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.6.2)  12 NOV 2015 13:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.6.2)  17 NOV 2015 14:11
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -24,6 +24,15 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count88
+)
+\etb@tempcnta=\count89
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2014/04/30 v1.2b Input encoding file
@@ -257,7 +266,7 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2014/03/24 3.9k Babel common definitions
-\babel@savecnt=\count88
+\babel@savecnt=\count90
 \U@D=\dimen103
 )
 \l@canadian = a dialect from \language\l@american 
@@ -272,15 +281,15 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count89
-\calc@Bcount=\count90
+\calc@Acount=\count91
+\calc@Bcount=\count92
 \calc@Adimen=\dimen104
 \calc@Bdimen=\dimen105
 \calc@Askip=\skip43
 \calc@Bskip=\skip44
 LaTeX Info: Redefining \setlength on input line 75.
 LaTeX Info: Redefining \addtolength on input line 76.
-\calc@Ccount=\count91
+\calc@Ccount=\count93
 \calc@Cskip=\skip45
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/eso-pic/eso-pic.sty
@@ -313,7 +322,7 @@ Package xcolor Info: Driver file: pdftex.def on input line 225.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count92
+\Gread@gobject=\count94
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
@@ -350,7 +359,7 @@ File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box26
 \AM@toc@title=\toks17
-\c@AM@survey=\count93
+\c@AM@survey=\count95
 \AM@templatesizebox=\box27
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/placeins/placeins.sty
@@ -363,35 +372,30 @@ Package: expl3 2014/05/20 v4814 L3 programming layer (loader)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2014/05/20 v4814 L3 programming layer (code) 
 L3 Module: l3bootstrap 2014/05/16 v4782 L3 Bootstrap code
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
-Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count94
-)
 L3 Module: l3names 2014/05/04 v4728 L3 Namespace for primitives
 L3 Module: l3basics 2014/05/04 v4728 L3 Basic definitions
 L3 Module: l3expan 2014/04/30 v4712 L3 Argument expansion
 L3 Module: l3tl 2014/05/04 v4728 L3 Token lists
 L3 Module: l3seq 2014/04/30 v4712 L3 Sequences and stacks
 L3 Module: l3int 2014/05/16 v4776 L3 Integers
-\c_max_int=\count95
-\l_tmpa_int=\count96
-\l_tmpb_int=\count97
-\g_tmpa_int=\count98
-\g_tmpb_int=\count99
+\c_max_int=\count96
+\l_tmpa_int=\count97
+\l_tmpb_int=\count98
+\g_tmpa_int=\count99
+\g_tmpb_int=\count100
 L3 Module: l3quark 2014/05/04 v4728 L3 Quarks
 L3 Module: l3prg 2014/05/04 v4728 L3 Control structures
-\g__prg_map_int=\count100
+\g__prg_map_int=\count101
 L3 Module: l3clist 2014/05/04 v4728 L3 Comma separated lists
 L3 Module: l3token 2014/05/04 v4728 L3 Experimental token manipulation
 L3 Module: l3prop 2014/04/30 v4712 L3 Property lists
 L3 Module: l3msg 2014/05/04 v4728 L3 Messages
 L3 Module: l3file 2014/05/05 v4737 L3 File and I/O operations
-\l_iow_line_count_int=\count101
-\l__iow_target_count_int=\count102
-\l__iow_current_line_int=\count103
-\l__iow_current_word_int=\count104
-\l__iow_current_indentation_int=\count105
+\l_iow_line_count_int=\count102
+\l__iow_target_count_int=\count103
+\l__iow_current_line_int=\count104
+\l__iow_current_word_int=\count105
+\l__iow_current_indentation_int=\count106
 L3 Module: l3skip 2014/05/05 v4738 L3 Dimensions and skips
 \c_zero_dim=\dimen108
 \c_max_dim=\dimen109
@@ -412,18 +416,18 @@ L3 Module: l3skip 2014/05/05 v4738 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip14
 \g_tmpb_muskip=\muskip15
 L3 Module: l3keys 2014/05/08 v4753 L3 Key-value interfaces
-\g__keyval_level_int=\count106
-\l_keys_choice_int=\count107
+\g__keyval_level_int=\count107
+\l_keys_choice_int=\count108
 L3 Module: l3fp 2014/04/30 v4712 L3 Floating points
-\c__fp_leading_shift_int=\count108
-\c__fp_middle_shift_int=\count109
-\c__fp_trailing_shift_int=\count110
-\c__fp_big_leading_shift_int=\count111
-\c__fp_big_middle_shift_int=\count112
-\c__fp_big_trailing_shift_int=\count113
-\c__fp_Bigg_leading_shift_int=\count114
-\c__fp_Bigg_middle_shift_int=\count115
-\c__fp_Bigg_trailing_shift_int=\count116
+\c__fp_leading_shift_int=\count109
+\c__fp_middle_shift_int=\count110
+\c__fp_trailing_shift_int=\count111
+\c__fp_big_leading_shift_int=\count112
+\c__fp_big_middle_shift_int=\count113
+\c__fp_big_trailing_shift_int=\count114
+\c__fp_Bigg_leading_shift_int=\count115
+\c__fp_Bigg_middle_shift_int=\count116
+\c__fp_Bigg_trailing_shift_int=\count117
 L3 Module: l3box 2014/05/04 v4728 L3 Experimental boxes
 \c_empty_box=\box28
 \l_tmpa_box=\box29
@@ -452,8 +456,8 @@ L3 Module: l3coffins 2014/05/04 v4728 L3 Coffin code layer
 \l__coffin_display_y_dim=\dimen123
 L3 Module: l3color 2014/04/30 v4712 L3 Experimental color support
 L3 Module: l3luatex 2014/04/30 v4712 L3 Experimental LuaTeX-specific functions
-\g__cctab_allocate_int=\count117
-\g__cctab_stack_int=\count118
+\g__cctab_allocate_int=\count118
+\g__cctab_stack_int=\count119
 L3 Module: l3candidates 2014/05/04 v4734 L3 Experimental additions to l3kernel
 \l__box_top_dim=\dimen124
 \l__box_bottom_dim=\dimen125
@@ -474,11 +478,11 @@ L3 Module: l3candidates 2014/05/04 v4734 L3 Experimental additions to l3kernel
 ))
 (/usr/local/texlive/2014/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2014/05/05 v4740 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count119
-\l__xparse_m_args_int=\count120
-\l__xparse_mandatory_args_int=\count121
-\l__xparse_processor_int=\count122
-\l__xparse_v_nesting_int=\count123
+\l__xparse_current_arg_int=\count120
+\l__xparse_m_args_int=\count121
+\l__xparse_mandatory_args_int=\count122
+\l__xparse_processor_int=\count123
+\l__xparse_v_nesting_int=\count124
 )
 Package: siunitx 2013/07/31 v2.5s A comprehensive (SI) units package
 
@@ -504,30 +508,30 @@ Package: l3keys2e 2014/05/05 v4740 LaTeX2e option processing using LaTeX3 keys
 Variant \tl_if_blank:VTF already defined; not changing it on line 50
 \l__siunitx_tmp_box=\box43
 \l__siunitx_tmp_dim=\dimen142
-\l__siunitx_tmp_int=\count124
+\l__siunitx_tmp_int=\count125
 Variant \prop_get:NVNT already defined; not changing it on line 371
 Variant \prop_get:NVNF already defined; not changing it on line 372
 Variant \prop_get:NVNTF already defined; not changing it on line 373
-\l__siunitx_number_mantissa_length_int=\count125
-\l__siunitx_number_uncert_length_int=\count126
-\l__siunitx_round_int=\count127
-\l__siunitx_process_decimal_int=\count128
-\l__siunitx_process_uncertainty_int=\count129
-\l__siunitx_process_fixed_int=\count130
-\l__siunitx_process_integer_min_int=\count131
-\l__siunitx_process_precision_int=\count132
-\l__siunitx_group_min_int=\count133
+\l__siunitx_number_mantissa_length_int=\count126
+\l__siunitx_number_uncert_length_int=\count127
+\l__siunitx_round_int=\count128
+\l__siunitx_process_decimal_int=\count129
+\l__siunitx_process_uncertainty_int=\count130
+\l__siunitx_process_fixed_int=\count131
+\l__siunitx_process_integer_min_int=\count132
+\l__siunitx_process_precision_int=\count133
+\l__siunitx_group_min_int=\count134
 \l__siunitx_angle_marker_box=\box44
 \l__siunitx_angle_unit_box=\box45
 \l__siunitx_angle_marker_dim=\dimen143
 \l__siunitx_angle_unit_dim=\dimen144
-\l__siunitx_unit_int=\count134
-\l__siunitx_unit_denominator_int=\count135
-\l__siunitx_unit_numerator_int=\count136
-\l__siunitx_unit_prefix_int=\count137
-\l__siunitx_unit_prefix_base_int=\count138
-\l__siunitx_unit_prefix_gram_int=\count139
-\l__siunitx_number_product_int=\count140
+\l__siunitx_unit_int=\count135
+\l__siunitx_unit_denominator_int=\count136
+\l__siunitx_unit_numerator_int=\count137
+\l__siunitx_unit_prefix_int=\count138
+\l__siunitx_unit_prefix_base_int=\count139
+\l__siunitx_unit_prefix_gram_int=\count140
+\l__siunitx_number_product_int=\count141
 \c__siunitx_one_fill_skip=\skip54
 \l__siunitx_table_unit_align_skip=\skip55
 \l__siunitx_table_exponent_dim=\dimen145
@@ -697,14 +701,14 @@ Package: xkeyval 2014/05/09 v2.6d package option processing (HA)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 \XKV@toks=\toks22
 \XKV@tempa@toks=\toks23
-\XKV@depth=\count141
+\XKV@depth=\count142
 File: xkeyval.tex 2014/05/09 v2.6d key=value parser (HA)
 ))
-\c@fixmecount=\count142
-\c@fxnotecount=\count143
-\c@fxwarningcount=\count144
-\c@fxerrorcount=\count145
-\c@fxfatalcount=\count146
+\c@fixmecount=\count143
+\c@fxnotecount=\count144
+\c@fxwarningcount=\count145
+\c@fxerrorcount=\count146
+\c@fxfatalcount=\count147
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
@@ -735,19 +739,19 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \caption@parindent=\dimen164
 \caption@hangindent=\dimen165
 )
-\c@ContinuedFloat=\count147
+\c@ContinuedFloat=\count148
 )
-\c@KVtest=\count148
+\c@KVtest=\count149
 \sf@farskip=\skip60
 \sf@captopadj=\dimen166
 \sf@capskip=\skip61
 \sf@nearskip=\skip62
-\c@subfigure=\count149
-\c@subfigure@save=\count150
-\c@lofdepth=\count151
-\c@subtable=\count152
-\c@subtable@save=\count153
-\c@lotdepth=\count154
+\c@subfigure=\count150
+\c@subfigure@save=\count151
+\c@lofdepth=\count152
+\c@subtable=\count153
+\c@subtable@save=\count154
+\c@lotdepth=\count155
 \sf@top=\skip63
 \sf@bottom=\skip64
 )
@@ -769,13 +773,13 @@ Package: amsbsy 1999/11/29 v1.2d
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count155
+\inf@bad=\count156
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count156
-\leftroot@=\count157
+\uproot@=\count157
+\leftroot@=\count158
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count158
-\DOTSCASE@=\count159
+\classnum@=\count159
+\DOTSCASE@=\count160
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
@@ -784,15 +788,15 @@ LaTeX Info: Redefining \cdots on input line 466.
 \big@size=\dimen168
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count160
-\c@MaxMatrixCols=\count161
+\macc@depth=\count161
+\c@MaxMatrixCols=\count162
 \dotsspace@=\muskip16
-\c@parentequation=\count162
-\dspbrk@lvl=\count163
+\c@parentequation=\count163
+\dspbrk@lvl=\count164
 \tag@help=\toks25
-\row@=\count164
-\column@=\count165
-\maxfields@=\count166
+\row@=\count165
+\column@=\count166
+\maxfields@=\count167
 \andhelp@=\toks26
 \eqnshift@=\dimen169
 \alignsep@=\dimen170
@@ -978,7 +982,7 @@ y
 Package: xtemplate 2014/05/05 v4740 L3 Experimental prototype document function
 s
 \l__xtemplate_tmp_dim=\dimen175
-\l__xtemplate_tmp_int=\count167
+\l__xtemplate_tmp_int=\count168
 \l__xtemplate_tmp_muskip=\muskip17
 \l__xtemplate_tmp_skip=\skip68
 Variant \prop_get:NoNTF already defined; not changing it on line 106
@@ -1015,10 +1019,10 @@ LaTeX Info: Redefining \bm on input line 203.
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count168
-\c@ALC@line=\count169
-\c@ALC@rem=\count170
-\c@ALC@depth=\count171
+\c@ALC@unique=\count169
+\c@ALC@line=\count170
+\c@ALC@rem=\count171
+\c@ALC@depth=\count172
 \ALC@tlm=\skip69
 \algorithmicindent=\skip70
 )
@@ -1028,14 +1032,14 @@ nment
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count172
+\c@float@type=\count173
 \float@exts=\toks29
 \float@box=\box55
 \@float@everytoks=\toks30
 \@floatcapt=\box56
 )
 \@float@every@algorithm=\toks31
-\c@algorithm=\count173
+\c@algorithm=\count174
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/aurical/aurical.sty
 Package: aurical 2006/10/12 aurical - a set of three decorative fonts with acce
@@ -1053,12 +1057,12 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen188
 \cmidrulekern=\dimen189
 \defaultaddspace=\dimen190
-\@cmidla=\count174
-\@cmidlb=\count175
+\@cmidla=\count175
+\@cmidlb=\count176
 \@aboverulesep=\dimen191
 \@belowrulesep=\dimen192
-\@thisruleclass=\count176
-\@lastruleclass=\count177
+\@thisruleclass=\count177
+\@lastruleclass=\count178
 \@thisrulewidth=\dimen193
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/commath/commath.sty)
@@ -1069,19 +1073,19 @@ Package: tabularx 2014/05/13 v2.10 `tabularx' package (DPC)
 \TX@old@col=\dimen196
 \TX@target=\dimen197
 \TX@delta=\dimen198
-\TX@cols=\count178
+\TX@cols=\count179
 \TX@ftn=\toks32
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2014/04/23 v1.8e multicolumn formatting (FMi)
-\c@tracingmulticols=\count179
+\c@tracingmulticols=\count180
 \mult@box=\box57
 \multicol@leftmargin=\dimen199
-\c@unbalance=\count180
-\c@collectmore=\count181
-\doublecol@number=\count182
-\multicoltolerance=\count183
-\multicolpretolerance=\count184
+\c@unbalance=\count181
+\c@collectmore=\count182
+\doublecol@number=\count183
+\multicoltolerance=\count184
+\multicolpretolerance=\count185
 \full@width=\dimen200
 \page@free=\dimen201
 Normal \dimen register pool exhausted, switching to extended pool.
@@ -1113,14 +1117,14 @@ Normal \dimen register pool exhausted, switching to extended pool.
 \@tempa=\box78
 \@tempa=\box79
 \@tempa=\box80
-\c@columnbadness=\count185
-\c@finalcolumnbadness=\count186
+\c@columnbadness=\count186
+\c@finalcolumnbadness=\count187
 \last@try=\dimen259
 \multicolovershoot=\dimen260
 \multicolundershoot=\dimen261
 \mult@nat@firstbox=\box81
 \colbreak@box=\box82
-\mc@col@check@num=\count187
+\mc@col@check@num=\count188
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
@@ -1171,10 +1175,10 @@ ode.tex
 \pgf@yc=\dimen271
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count188
-\c@pgf@countb=\count189
-\c@pgf@countc=\count190
-\c@pgf@countd=\count191
+\c@pgf@counta=\count189
+\c@pgf@countb=\count190
+\c@pgf@countc=\count191
+\c@pgf@countd=\count192
 \t@pgf@toka=\toks37
 \t@pgf@tokb=\toks38
 \t@pgf@tokc=\toks39
@@ -1195,8 +1199,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count192
-\pgfsyssoftpath@bigbuffer@items=\count193
+\pgfsyssoftpath@smallbuffer@items=\count193
+\pgfsyssoftpath@bigbuffer@items=\count194
 )
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -1209,7 +1213,7 @@ Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen272
-\pgfmath@count=\count194
+\pgfmath@count=\count195
 \pgfmath@box=\box84
 \pgfmath@toks=\toks40
 \pgfmath@stack@operand=\toks41
@@ -1234,7 +1238,7 @@ code.tex)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count195
+\c@pgfmathroundto@lastzeros=\count196
 ))
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
@@ -1272,7 +1276,7 @@ File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
 \pgfpic=\box85
 \pgf@hbox=\box86
 \pgf@layerbox@main=\box87
-\pgf@picture@serial@count=\count196
+\pgf@picture@serial@count=\count197
 )
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
@@ -1307,7 +1311,7 @@ File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
 e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen296
-\pgf@sys@shading@range@num=\count197
+\pgf@sys@shading@range@num=\count198
 )
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -1370,7 +1374,7 @@ Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
-\pgf@plot@mark@count=\count198
+\pgf@plot@mark@count=\count199
 \pgfplotmarksize=\dimen301
 )
 \tikz@lastx=\dimen302
@@ -1383,43 +1387,43 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
 \tikz@figbox@bg=\box91
 \tikz@tempbox=\box92
 \tikz@tempbox@bg=\box93
-\tikztreelevel=\count199
-\tikznumberofchildren=\count200
-\tikznumberofcurrentchild=\count201
+\tikztreelevel=\count200
+\tikznumberofchildren=\count201
 Normal \count register pool exhausted, switching to extended pool.
-\tikz@fig@count=\count277
+\tikznumberofcurrentchild=\count277
+\tikz@fig@count=\count278
 
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count278
-\pgfmatrixcurrentcolumn=\count279
-\pgf@matrix@numberofcolumns=\count280
+\pgfmatrixcurrentrow=\count279
+\pgfmatrixcurrentcolumn=\count280
+\pgf@matrix@numberofcolumns=\count281
 )
-\tikz@expandcount=\count281
+\tikz@expandcount=\count282
 
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
 )))
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count282
+\lst@mode=\count283
 \lst@gtempboxa=\box94
 \lst@token=\toks45
-\lst@length=\count283
+\lst@length=\count284
 \lst@currlwidth=\dimen308
-\lst@column=\count284
-\lst@pos=\count285
+\lst@column=\count285
+\lst@pos=\count286
 \lst@lostspace=\dimen309
 \lst@width=\dimen310
-\lst@newlines=\count286
-\lst@lineno=\count287
+\lst@newlines=\count287
+\lst@lineno=\count288
 \lst@maxwidth=\dimen311
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
-\c@lstnumber=\count288
-\lst@skipnumbers=\count289
+\c@lstnumber=\count289
+\lst@skipnumbers=\count290
 \lst@framebox=\box95
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
@@ -1436,8 +1440,8 @@ Package: pgfplots 2014/02/28 v1.10 Data Visualization (1.10-2-gb39fe75)
 \t@pgfplots@tokb=\toks47
 \t@pgfplots@tokc=\toks48
 \pgfplots@tmpa=\dimen312
-\c@pgfplots@coordindex=\count290
-\c@pgfplots@scanlineindex=\count291
+\c@pgfplots@coordindex=\count291
+\c@pgfplots@scanlineindex=\count292
 
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric
 .code.tex))
@@ -1455,13 +1459,13 @@ liststructure.code.tex)
 liststructureext.code.tex)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
 array.code.tex
-\c@pgfplotsarray@tmp=\count292
+\c@pgfplotsarray@tmp=\count293
 )
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
 matrix.code.tex)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable
 shared.code.tex
-\c@pgfplotstable@counta=\count293
+\c@pgfplotstable@counta=\count294
 \t@pgfplotstable@a=\toks49
 )
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
@@ -1474,7 +1478,7 @@ ta.code.tex))
 .code.tex)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplot
 s.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count294
+\c@pgfplotslibrarysurf@no=\count295
 
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots
 .surfshading.pgfsys-pdftex.def)))
@@ -1509,7 +1513,7 @@ s.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen315
 \pgfdecoratedinputsegmentremainingdistance=\dimen316
 \pgf@decorate@distancetomove=\dimen317
-\pgf@decorate@repeatstate=\count295
+\pgf@decorate@repeatstate=\count296
 \pgfdecorationsegmentamplitude=\dimen318
 \pgfdecorationsegmentlength=\dimen319
 )
@@ -1523,7 +1527,7 @@ brarydecorations.pathmorphing.code.tex))
 s/tikzlibrarydecorations.pathreplacing.code.tex
 (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
 brarydecorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count296
+\pgfplots@numplots=\count297
 \pgfplots@xmin@reg=\dimen320
 \pgfplots@xmax@reg=\dimen321
 \pgfplots@ymin@reg=\dimen322
@@ -1581,7 +1585,6 @@ Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
 Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
 Package hobsub Info: Skipping package `atbegshi' (already loaded).
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
@@ -1596,15 +1599,15 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen326
-\Hy@linkcounter=\count297
-\Hy@pagecounter=\count298
+\Hy@linkcounter=\count298
+\Hy@pagecounter=\count299
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count299
+\Hy@SavedSpaceFactor=\count300
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1616,10 +1619,10 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count300
+\c@Hy@tempcnt=\count301
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen327
-\Fld@menulength=\count301
+\Fld@menulength=\count302
 \Field@Width=\dimen328
 \Fld@charsize=\dimen329
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -1631,17 +1634,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count302
-\c@Item=\count303
-\c@Hfootnote=\count304
+\Hy@abspage=\count303
+\c@Item=\count304
+\c@Hfootnote=\count305
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count305
-\c@bookmark@seq@number=\count306
+\Fld@listcount=\count306
+\c@bookmark@seq@number=\count307
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
@@ -1656,16 +1659,16 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTright=\skip75
 \LTpre=\skip76
 \LTpost=\skip77
-\LTchunksize=\count307
+\LTchunksize=\count308
 \LTcapwidth=\dimen330
 \LT@head=\box97
 \LT@firsthead=\box98
 \LT@foot=\box99
 \LT@lastfoot=\box100
-\LT@cols=\count308
-\LT@rows=\count309
-\c@LT@tables=\count310
-\c@LT@chunks=\count311
+\LT@cols=\count309
+\LT@rows=\count310
+\c@LT@tables=\count311
+\c@LT@chunks=\count312
 \LT@p@ftn=\toks50
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/pdflscape.sty
@@ -1730,10 +1733,10 @@ Package pageslts Info: Option fnsymbolmult enabled
 (pageslts)             If you do not want this, call pageslts with option
 (pageslts)             fnsymbolmult=false.
 (pageslts)              on input line 290.
-\c@CurrentPage=\count312
-\c@pagesLTS.pagenr=\count313
-\c@pagesLTS.current.local.0=\count314
-\c@pagesLTS.pnc.0=\count315
+\c@CurrentPage=\count313
+\c@pagesLTS.pagenr=\count314
+\c@pagesLTS.current.local.0=\count315
+\c@pagesLTS.pnc.0=\count316
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/nomencl/nomencl.sty
 Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
@@ -1851,24 +1854,24 @@ s/tikzexternalshared.code.tex))
 
 
 Package hyperref Warning: Option `pdfpagelabels' has already been used,
-(hyperref)                setting the option has no effect on input line 109.
+(hyperref)                setting the option has no effect on input line 117.
 
-Package hyperref Info: Option `plainpages' set `false' on input line 109.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 109.
+Package hyperref Info: Option `plainpages' set `false' on input line 117.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 117.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 109.
+Package hyperref Info: Option `colorlinks' set `true' on input line 117.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/todonotes/todonotes.sty
 Package: todonotes 2012/07/25 .dtx Todonotes source and documentation.
 Package: todonotes 2012/07/25
-\c@@todonotes@numberoftodonotes=\count316
+\c@@todonotes@numberoftodonotes=\count317
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count317
+\c@lips@count=\count318
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/xargs/xargs.sty
 Package: xargs 2008/03/22 v1.1  extended macro definitions  (mpg)
-\xargs@max=\count318
+\xargs@max=\count319
 \xargs@toksa=\toks51
 \xargs@toksb=\toks52
 )
@@ -1878,12 +1881,12 @@ ass
 
 No memoir class: memhfixc does nothing
 )
-LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 137.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 145.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count319
-\Gm@cntv=\count320
-\c@Gm@tempcnt=\count321
+\Gm@cnth=\count320
+\Gm@cntv=\count321
+\c@Gm@tempcnt=\count322
 \Gm@bindingoffset=\dimen334
 \Gm@wd@mp=\dimen335
 \Gm@odd@mp=\dimen336
@@ -1908,9 +1911,9 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 (/usr/local/texlive/2014/texmf-dist/tex/latex/csvsimple/csvsimple.sty
 Package: csvsimple 2013/09/25 version 1.07 LaTeX CSV file processing
 \csv@file=\read4
-\c@csvinputline=\count322
-\c@csvrow=\count323
-\c@csvcol=\count324
+\c@csvinputline=\count323
+\c@csvrow=\count324
+\c@csvcol=\count325
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/circuitikz/circuitikz.sty
 Package: circuitikz 2012/12/29 The CircuiTikz circuit drawing package version 0
@@ -1959,7 +1962,7 @@ Package cleveref Info: `listings' support loaded on input line 2950.
 Package cleveref Info: `subfig' support loaded on input line 2983.
 )
 (./set/macros.tex
-\c@reqcount=\count325
+\c@reqcount=\count326
 ) (./set/listings.tex
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/03/04 1.5c listings language file
@@ -1975,32 +1978,32 @@ LaTeX Warning: Unused global option(s):
     [usenames].
 
 (./master.aux
-\c@pagesLTS.roman.1.local.cnt=\count326
-\c@pagesLTS.arabic.1.local.cnt=\count327
+\c@pagesLTS.roman.1.local.cnt=\count327
+\c@pagesLTS.arabic.1.local.cnt=\count328
 )
 \openout1 = `master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 16.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 9.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 16.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -2009,16 +2012,16 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count328
+\scratchcounter=\count329
 \scratchdimen=\dimen351
 \scratchbox=\box122
-\nofMPsegments=\count329
-\nofMParguments=\count330
+\nofMPsegments=\count330
+\nofMParguments=\count331
 \everyMPshowfont=\toks54
-\MPscratchCnt=\count331
+\MPscratchCnt=\count332
 \MPscratchDim=\dimen352
-\MPnumerator=\count332
-\makeMPintoPDFobject=\count333
+\MPnumerator=\count333
+\makeMPintoPDFobject=\count334
 \everyMPtoPDFconversion=\toks55
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -2055,35 +2058,35 @@ Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 Package caption Info: End \AtBeginDocument code.
 \symgns@font=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/ptm/m/n --> TS1/ptm/bx/n on input line 9.
-Package gensymb Info: Math companion symbols declared on input line 9.
-LaTeX Info: Redefining \degree on input line 9.
-LaTeX Info: Redefining \celsius on input line 9.
+(Font)                  TS1/ptm/m/n --> TS1/ptm/bx/n on input line 16.
+Package gensymb Info: Math companion symbols declared on input line 16.
+LaTeX Info: Redefining \degree on input line 16.
+LaTeX Info: Redefining \celsius on input line 16.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 9.
-LaTeX Info: Redefining \ohm on input line 9.
-Package gensymb Info: Using \textohm for \ohm on input line 9.
-LaTeX Info: Redefining \micro on input line 9.
-Package gensymb Info: Using \textmu for \micro on input line 9.
+erthousand on input line 16.
+LaTeX Info: Redefining \ohm on input line 16.
+Package gensymb Info: Using \textohm for \ohm on input line 16.
+LaTeX Info: Redefining \micro on input line 16.
+Package gensymb Info: Using \textmu for \micro on input line 16.
 
 ABD: EveryShipout initializing macros
-\c@lstlisting=\count334
+\c@lstlisting=\count335
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.10}).
 
-Package hyperref Info: Link coloring ON on input line 9.
+Package hyperref Info: Link coloring ON on input line 16.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count335
+\c@section@level=\count336
 )
-LaTeX Info: Redefining \ref on input line 9.
-LaTeX Info: Redefining \pageref on input line 9.
-LaTeX Info: Redefining \nameref on input line 9.
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
 
 (./master.out) (./master.out)
 \@outlinefile=\write5
@@ -2093,14 +2096,14 @@ LaTeX Info: Redefining \nameref on input line 9.
 
 Package lastpage Warning: Package pageslts found.
 (lastpage)                Therefore the lastpage package is no longer
-(lastpage)                necessary. on input line 9.
+(lastpage)                necessary. on input line 16.
 
 
 Package pageslts Warning: lastpage package detected.
 (pageslts)                With pageslts package in use, lastpage has no functio
 n.
 (pageslts)                Just remove the lastpage package from your document.
-(pageslts)                 on input line 9.
+(pageslts)                 on input line 16.
 
 
 Package pageslts Warning: Package pdfpages detected.
@@ -2144,87 +2147,125 @@ Package pageslts Warning: Package pdfpages detected.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c__siunitx_mathsf_int=\count336
-LaTeX Font Info:    Try loading font information for U+msa on input line 9.
+\c__siunitx_mathsf_int=\count337
+LaTeX Font Info:    Try loading font information for U+msa on input line 16.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 9.
+LaTeX Font Info:    Try loading font information for U+msb on input line 16.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 9.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 16.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 9.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 16.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-\c__siunitx_mathtt_int=\count337
-\c@pagesLTS.pnc.roman=\count338
-\c@pagesLTS.double.roman=\count339
-\c@pagesLTS.current.local.roman=\count340
+\c__siunitx_mathtt_int=\count338
+\c@pagesLTS.pnc.roman=\count339
+\c@pagesLTS.double.roman=\count340
+\c@pagesLTS.current.local.roman=\count341
 
 (./etc/frontpage.tex
-LaTeX Font Info:    Try loading font information for T1+phv on input line 8.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 10.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 41.50009pt on input line 8.
+(Font)              scaled to size 41.50009pt on input line 10.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 24.90005pt on input line 13.
+(Font)              scaled to size 24.90005pt on input line 14.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 20.65044pt on input line 20.
+(Font)              scaled to size 20.65044pt on input line 21.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 20.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 20.65044pt on input line 20.
+(Font)              scaled to size 20.65044pt on input line 21.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 14.34242pt on input line 24.
+(Font)              scaled to size 14.34242pt on input line 25.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 9.08852pt on input line 32.
+(Font)              scaled to size 9.08852pt on input line 33.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 9.96002pt on input line 32.
-) [1
+(Font)              scaled to size 9.96002pt on input line 33.
+)
+(./etc/titlepage.tex
+\titlepageleftcolumnwidth=\skip88
+\titlepagerightcolumnwidth=\skip89
+ <img/aau_logo_en.pdf, id=43, 114.9896pt x 75.28125pt>
+File: img/aau_logo_en.pdf Graphic file (type pdf)
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+<use img/aau_logo_en.pdf>
+Package pdftex.def Info: img/aau_logo_en.pdf used on input line 16.
+(pdftex.def)             Requested size: 114.9893pt x 75.28105pt.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.30002pt on input line 23.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 23.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 8.30002pt on input line 23.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 47.
 
-]
-\c@pagesLTS.roman.1.local.count=\count341
-\c@pagesLTS.pnc.arabic=\count342
-\c@pagesLTS.double.arabic=\count343
-\c@pagesLTS.current.local.arabic=\count344
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+
+ []
+
+(./etc/synopsis.tex)
+Overfull \hbox (4.67499pt too wide) in paragraph at lines 58--58
+[][][][][][][] 
+ []
+
+[1
+
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2 <./img/aau_logo_en.pdf>])
+\c@pagesLTS.roman.1.local.count=\count342
+\c@pagesLTS.pnc.arabic=\count343
+\c@pagesLTS.double.arabic=\count344
+\c@pagesLTS.current.local.arabic=\count345
 
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 33.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 33.
-(./sec/template.tex
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 44.
+(./sec/introduction_to_physiological.tex) (./sec/perception_of_threats.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [1]
-Chapter 2.
+ [1
 
+])
+(./sec/cognitive_respond_to_threats.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2])
+Chapter 2.
+(./master.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [3]
+[4]) 
 AED: lastpage setting LastPage
-[3] 
+[5] 
 AED: pageslts setting LastPage 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 50.
-\c@pagesLTS.arabic.1.local.count=\count345
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 65.
+\c@pagesLTS.arabic.1.local.count=\count346
 
 AED: pageslts setting VeryLastPage via AfterLastShipout 
 
@@ -2235,29 +2276,29 @@ Package pageslts Info: Total number of pages is odd.
 
 
 (./master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 65.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 65.
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: 2CF7AB0566B2DC871914D8C02CC06839;583.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
+(rerunfilecheck)             Checksum: 0169623B6A5597D51969307F3D5A954A;697.
  ) 
 Here is how much of TeX's memory you used:
- 49027 strings out of 493117
- 1145746 string characters out of 6135434
- 1498371 words of memory out of 5000000
- 51637 multiletter control sequences out of 15000+600000
- 54730 words of font info for 81 fonts, out of 8000000 for 9000
+ 49416 strings out of 493117
+ 1150676 string characters out of 6135434
+ 1506992 words of memory out of 5000000
+ 51988 multiletter control sequences out of 15000+600000
+ 76427 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,11n,96p,10442b,746s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,12n,96p,10442b,890s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2014/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/te
 xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/f
-onts/type1/urw/times/utmr8a.pfb>
-Output written on master.pdf (5 pages, 50043 bytes).
+onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
+/urw/times/utmri8a.pfb>
+Output written on master.pdf (7 pages, 82655 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 132 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 500000)
+ 90 words of extra memory for PDF output out of 10000 (max. 10000000)
 
