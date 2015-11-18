@@ -1,52 +1,52 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{}
 
-\bibitem{5responses}
-H.~Stefan Bracha.
+\bibitem[Bracha, 2004]{5responses}
+Bracha, H.~S. (2004).
 \newblock {\em Freeze, Flight, Fight, Fright, Faint: Adaptationist Perspectives
   on the Acute Stress Response Spectrum}.
-\newblock CNS SPECTRUMS, 2004.
+\newblock CNS SPECTRUMS.
 
-\bibitem{bodily_changes}
-Walter~B. Cannon.
+\bibitem[Cannon, 1927]{bodily_changes}
+Cannon, W.~B. (1927).
 \newblock {\em Bodily Changes in Pain, Hunger, Fear and Rage}.
-\newblock New York and London D. Appleton and Company, 1927.
+\newblock New York and London D. Appleton and Company.
 
-\bibitem{threat_behaviour}
-Orlando Fernandes Jr.{,} Liana C. L. Portugal{,} Rita C. S. Alves{,} Rafaela R.
-  Campagnoli{,} Izabela Mocaiber{,} Isabel P. A. David{,} Fatima C. S.
-  Erthal{,} Eliane Volchan{,}~Leticia de~Oliveira and Mirtes~G. Pereira.
-\newblock {\em How You Perceive Threat Determines Your Behavior}.
-\newblock Journal{,} Frontier in Human Neuroscience, 2003.
-
-\bibitem{tendbefriend}
-Shelley E. Taylor{,} Laura Cousino Klein{,} Brian P. Lewis{,} Tara L.
-  Gruenewald{‚} Regan A.~R. Gurung{,} and John~A. Updegraff.
-\newblock {\em Biobehavioral Responses to Stress in Females: Tend-and-Befriend,
-  not Fight-or-Flight}.
-\newblock Psychological Review{,} Vol. 107{,} No. 3, 2000.
-
-\bibitem{fightflight}
-Joohyung Leeand Vincent~R. Harley.
+\bibitem[Harley, 2012]{fightflight}
+Harley, J. L. V.~R. (2012).
 \newblock {\em The Male Fight-Flight Response: A Result of SRY Regulation of
   Catecholamines?}
-\newblock Journal{,} Bioessays 34{,} WILEY Periodicals, Inc., 2012.
+\newblock Journal{,} Bioessays 34{,} WILEY Periodicals, Inc.
 
-\bibitem{perspective_anxiety}
-Ned~H. Kalin.
-\newblock {\em Perspectives in the Management of Anxiety Disorders}.
-\newblock Session of Char Summit{;} Master Class for Neuroscience Professional
-  Development, 2014.
-
-\bibitem{CNS}
-Arthur S. P. Jansen{,} Xay Van Nguyen{,} Vladimir Karpitskiy{,} Thomas~C.
-  Mettenleiter and Arthur~D. Loewy.
+\bibitem[Jansen et~al., 1995]{CNS}
+Jansen, A. S.~P., Nguyen, X.~V., Karpitskiy, V., Mettenleiter, T.~C., and
+  Loewy, A.~D. (1995).
 \newblock {\em Central Command Neurons of the Sympathetic Nervous System: Basis
   of the Fight-or-Flight Response}.
-\newblock Magazine{,} Science{,} Vol. 270{,} No. 5236, 1995.
+\newblock Magazine{,} Science{,} Vol. 270{,} No. 5236.
 
-\bibitem{human_physiology}
-Gilian Pocock.
+\bibitem[Jr. et~al., 2003]{threat_behaviour}
+Jr., O.~F., Portugal, L. C.~L., Alves, R. C.~S., Campagnoli, R.~R., Mocaiber,
+  I., David, I. P.~A., Erthal, F. C.~S., Volchan, E., de~Oliveira, L., and
+  Pereira, M.~G. (2003).
+\newblock {\em How You Perceive Threat Determines Your Behavior}.
+\newblock Journal{,} Frontier in Human Neuroscience.
+
+\bibitem[Kalin, 2014]{perspective_anxiety}
+Kalin, N.~H. (2014).
+\newblock {\em Perspectives in the Management of Anxiety Disorders}.
+\newblock Session of Char Summit{;} Master Class for Neuroscience Professional
+  Development.
+
+\bibitem[Pocock, 2006]{human_physiology}
+Pocock, G. (2006).
 \newblock {\em Human Physiology}.
-\newblock Oxford University Press, 2006.
+\newblock Oxford University Press.
+
+\bibitem[Taylor et~al., 2000]{tendbefriend}
+Taylor, S.~E., Klein, L.~C., Lewis, B.~P., Gruenewald, T.~L., Gurung, R. A.~R.,
+  and Updegraff, J.~A. (2000).
+\newblock {\em Biobehavioral Responses to Stress in Females: Tend-and-Befriend,
+  not Fight-or-Flight}.
+\newblock Psychological Review{,} Vol. 107{,} No. 3.
 
 \end{thebibliography}
