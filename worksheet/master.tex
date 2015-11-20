@@ -55,16 +55,33 @@
 \chapter{Experiment}
 	\input{sec/method_procedure}
 	\input{sec/results}
+	
+\chapter{Discussion and Conclusion}
+	\input{sec/discussion}
+	\input{sec/conclusion}
+	
+	
+
 %%%%%%%%%%%%%%%% Bibliography and appendices %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     % Adjust appendix debth in TOC. 
     % NOTE: This makes list-of-fixmes unusable.
     % \addtocontents{toc}{\protect\setcounter{tocdepth}{0}} 
-
+\newpage
    \bibliographystyle{apalike}
     	\bibliography{bib/sources}
    \addcontentsline{toc}{chapter}{Bibliography}
-
+   
+   \newpage
+\appendix
+\chapter{ }
+\section{Game Design}\label{game_design}
+	\input{appendix/game}
+\section{Test Setup}\label{test_setup}
+	\input{appendix/scheme}
+\section{Test Results}\label{test_results}
+	\input{appendix/test}
+	\input{appendix/interview}
   %  \chapter*{Appendix} \label{chap:appendixCD}
   %      \addcontentsline{toc}{chapter}{Appendix CD}
 %        \newpage
