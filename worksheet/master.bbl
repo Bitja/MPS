@@ -1,11 +1,5 @@
 \begin{thebibliography}{}
 
-\bibitem[Bracha, 2004]{5responses}
-Bracha, H.~S. (2004).
-\newblock {\em Freeze, Flight, Fight, Fright, Faint: Adaptationist Perspectives
-  on the Acute Stress Response Spectrum}.
-\newblock CNS SPECTRUMS.
-
 \bibitem[Cannon, 1927]{bodily_changes}
 Cannon, W.~B. (1927).
 \newblock {\em Bodily Changes in Pain, Hunger, Fear and Rage}.
@@ -13,15 +7,16 @@ Cannon, W.~B. (1927).
 
 \bibitem[Card et~al., 1986]{humanprocessor}
 Card, S.~K., Moran, T.~P., and Newell, A. (1986).
-\newblock {\em ￼The Model Human Processor: An Engineering Model of Human
+\newblock {\em The Model Human Processor: An Engineering Model of Human
   Performance}.
-\newblock UIR-R-1986-05.
+\newblock UIR{-}R{-}1986{-}05.
 
-\bibitem[Harley, 2012]{fightflight}
-Harley, J. L. V.~R. (2012).
-\newblock {\em The Male Fight-Flight Response: A Result of SRY Regulation of
-  Catecholamines?}
-\newblock Journal{,} Bioessays 34{,} WILEY Periodicals, Inc.
+\bibitem[{Fernandes Jr.} et~al., 2003]{threat_behaviour}
+{Fernandes Jr.}, O., Portugal, L. C.~L., Alves, R. C.~S., Campagnoli, R.~R.,
+  Mocaiber, I., David, I. P.~A., Erthal, F. C.~S., Volchan, E., de~Oliveira,
+  L., and Pereira, M.~G. (2003).
+\newblock {\em How You Perceive Threat Determines Your Behavior}.
+\newblock Journal{,} Frontier in Human Neuroscience.
 
 \bibitem[Jansen et~al., 1995]{CNS}
 Jansen, A. S.~P., Nguyen, X.~V., Karpitskiy, V., Mettenleiter, T.~C., and
@@ -29,13 +24,6 @@ Jansen, A. S.~P., Nguyen, X.~V., Karpitskiy, V., Mettenleiter, T.~C., and
 \newblock {\em Central Command Neurons of the Sympathetic Nervous System: Basis
   of the Fight-or-Flight Response}.
 \newblock Magazine{,} Science{,} Vol. 270{,} No. 5236.
-
-\bibitem[Jr. et~al., 2003]{threat_behaviour}
-Jr., O.~F., Portugal, L. C.~L., Alves, R. C.~S., Campagnoli, R.~R., Mocaiber,
-  I., David, I. P.~A., Erthal, F. C.~S., Volchan, E., de~Oliveira, L., and
-  Pereira, M.~G. (2003).
-\newblock {\em How You Perceive Threat Determines Your Behavior}.
-\newblock Journal{,} Frontier in Human Neuroscience.
 
 \bibitem[Kalin, 2014]{perspective_anxiety}
 Kalin, N.~H. (2014).
